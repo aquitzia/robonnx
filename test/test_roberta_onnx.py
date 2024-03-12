@@ -1,6 +1,6 @@
 import unittest
 import os
-import OnnxSession
+from robonnx.roberta_onnx import OnnxSession
 
 class RobertaTestMeta(unittest.TestCase):
     def assertIsFalse(self, path):
