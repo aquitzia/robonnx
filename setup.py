@@ -25,5 +25,5 @@ setuptools.setup(
                       'pytest'
     ],
     python_requires='>=3.7',
-    tests_requires=['pytest']
+    tests_require=['pytest']
 )
