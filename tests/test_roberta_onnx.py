@@ -3,7 +3,7 @@ import os
 from robonnx.roberta_onnx import OnnxSession
 
 class RobertaTestMeta(unittest.TestCase):
-    def assertIsFalse(self, path):
+    def assertIsFile(self, path):
         if not os.path.isfile(path):
             raise AssertionError(f"{path} is not a file or does not exist!")
 
