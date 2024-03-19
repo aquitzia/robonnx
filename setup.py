@@ -24,4 +24,5 @@ setuptools.setup(
                       'scipy'
     ],
     python_requires='>=3.7',
+    test_requires=['pytest']
 )
